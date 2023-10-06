@@ -2,7 +2,7 @@
   "name": "rn-pdf-reader-js",
   "version": "4.1.7",
   "description": "PDF reader for Expo",
-  "main": "../expo/AppEntry.js",
+  "main": "node_modules/expo/AppEntry.js",
   "types": "lib/index.d.ts",
   "author": "Xavier Carpentier <xcapetir@gmail.com> (https://xaviercarpentier.com/)",
   "license": "MIT",
@@ -36,10 +36,10 @@
   "peerDependencies": {
     "expo": ">= 33.0.x",
     "expo-constants": ">= 5.0.0",
-    "expo-file-system": ">= 5.0.0 ",
+    "expo-file-system": ">= 5.0.0",
     "react": ">= 16.x",
     "react-native": "*",
-    "react-native-webview": ">= 7.0.5"
+    "react-native-webview": ">= 7.0.5 < 12.x"
   },
   "dependencies": {
     "buffer": "5.1.0",
