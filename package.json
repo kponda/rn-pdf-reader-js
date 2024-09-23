@@ -39,7 +39,7 @@
     "expo-file-system": ">= 5.0.0",
     "react": ">= 16.x",
     "react-native": "*",
-    "react-native-webview": ">= 7.0.5 < 12.x"
+    "react-native-webview": ">= 7.0.5 < 14.x"
   },
   "dependencies": {
     "buffer": "5.1.0",
